@@ -12,8 +12,19 @@ body{
     background-color: #EDEDED;
 }
 .sidebar{
-    
+    width: 35%;
+    max-width: 415px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DDD;
 }
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .contentarea{
 
 }
